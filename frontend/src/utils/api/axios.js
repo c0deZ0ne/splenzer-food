@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const baseUrl = "https://foodapi-5k61.onrender.com";
+// const baseUrl = "https://foodapi-5k61.onrender.com";
+const baseUrl = "http://localhost:8080";
 
 export const apiGet = (path) => {
   const config = {
