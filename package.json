@@ -5,9 +5,9 @@
   "license": "MIT",
   "scripts": {
     "start": "node dist/app.js",
-    "dev": "nodemon dist/app.js",
+    "dev": "nodemon ./src/app.ts",
     "compile": "tsc -w",
-    "build":"tsc"
+    "build": "tsc"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
@@ -38,6 +38,7 @@
     "nodemon": "^2.0.20",
     "sequelize": "^6.25.5",
     "sqlite3": "^5.1.2",
+    "ts-node": "^10.9.1",
     "twilio": "^3.83.2",
     "uuid": "^9.0.0"
   }
